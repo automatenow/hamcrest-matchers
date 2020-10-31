@@ -2,5 +2,5 @@
 
 ## Welcome to AUTOMATENOW on GitHub
 
-<p>This project is for those that want to learn how to use Hamcrest matchers in your automated tests.</p>
-<p>To learn more, visit [AUTOMATENOW.io](https://automatenow.io/) where you will find a blog post on Hamcrest and many more subjects.</p>
+This project is for those that want to learn how to use Hamcrest matchers in your automated tests.
+Visit [AUTOMATENOW.io](https://automatenow.io/) to find blog posts on Hamcrest and many other subjects.
