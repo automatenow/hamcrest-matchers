@@ -1,3 +1,5 @@
+package io.automatenow.hamcrestmatchers.commonmatchers;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,15 +11,14 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 /**
- * An introduction to using Hamcrest Matchers for test automation.
+ * Test common Hamcrest matchers
  *
  * @author Marco A. Cruz
- * @since 10/2020
  */
-public class HamcrestMatchers {
+public class HamcrestCommonMatchers {
 
     @Test
-    public void firstTest() {
+    public void testCommonMatchers() {
 
         // Code readability
         String[] primaryColors = {"red", "green", "blue"};
