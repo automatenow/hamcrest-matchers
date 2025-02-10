@@ -22,7 +22,7 @@ Add the following dependency to your project's ```pom.xml``` (for Maven) or ```b
 **Maven**
 ```
 \<!-- Adjust versions as needed -->
-<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+\<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
 <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter-api</artifactId>
@@ -30,7 +30,7 @@ Add the following dependency to your project's ```pom.xml``` (for Maven) or ```b
     <scope>test</scope>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+\<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
 <dependency>
     <groupId>org.hamcrest</groupId>
     <artifactId>hamcrest</artifactId>
