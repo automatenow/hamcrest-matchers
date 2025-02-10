@@ -22,12 +22,12 @@ Add the following dependency to your project's ```pom.xml``` (for Maven) or ```b
 **Maven**
 ```
 // Adjust versions as needed
-<dependency>
-    <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-api</artifactId>
-    <version>5.12.0-RC1</version>
-    <scope>test</scope>
-</dependency>
+\<dependency>
+    \<groupId>org.junit.jupiter</groupId>
+    \<artifactId>junit-jupiter-api</artifactId>
+    \<version>5.12.0-RC1</version>
+    \<scope>test</scope>
+\</dependency>
 
 <dependency>
     <groupId>org.hamcrest</groupId>
