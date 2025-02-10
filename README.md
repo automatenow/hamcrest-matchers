@@ -20,22 +20,8 @@ Hamcrest is a library of matchers for building test expressions. It allows for m
 Add the following dependency to your project's ```pom.xml``` (for Maven) or ```build.gradle``` (for Gradle) to use Hamcrest:
 
 **Maven**
-```
-// Adjust versions as needed
-\<dependency\>
-    \<groupId>org.junit.jupiter</groupId>
-    \<artifactId>junit-jupiter-api</artifactId>
-    \<version>5.12.0-RC1</version>
-    \<scope>test</scope>
-\</dependency>
-
-<dependency>
-    <groupId>org.hamcrest</groupId>
-    <artifactId>hamcrest</artifactId>
-    <version>3.0</version> 
-    <scope>test</scope>
-</dependency>
-```
+- Add [JUnit dependency](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api)
+- Add [Hamcrest dependency](https://mvnrepository.com/artifact/org.hamcrest/hamcrest)
 
 **Gradle**
 ```
