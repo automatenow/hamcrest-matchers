@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: io.automatenow.hamcrestmatchers.custommatchers.HamcrestCustomMatchersTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! -- in io.automatenow.hamcrestmatchers.custommatchers.HamcrestCustomMatchersTest
+io.automatenow.hamcrestmatchers.custommatchers.HamcrestCustomMatchersTest.testValidAccountNumber2 -- Time elapsed: 0.006 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is a valid account number
+     but: was "XYZ387457-2019"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at io.automatenow.hamcrestmatchers.custommatchers.HamcrestCustomMatchersTest.testValidAccountNumber2(HamcrestCustomMatchersTest.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+io.automatenow.hamcrestmatchers.custommatchers.HamcrestCustomMatchersTest.testPatientIsSick2 -- Time elapsed: 0.002 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is a temperature greater than 100.4 F
+     but: was <98.3>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at io.automatenow.hamcrestmatchers.custommatchers.HamcrestCustomMatchersTest.testPatientIsSick2(HamcrestCustomMatchersTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

@@ -1,6 +1,6 @@
 package io.automatenow.hamcrestmatchers.custommatchers;
 
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
@@ -12,7 +12,7 @@ import static io.automatenow.hamcrestmatchers.custommatchers.Temperature.aFever;
  *
  * @author Marco A. Cruz
  */
-public class HamcrestCustomMatchers {
+public class HamcrestCustomMatchersTest {
 
     @Test
     public void testValidAccountNumber1() {

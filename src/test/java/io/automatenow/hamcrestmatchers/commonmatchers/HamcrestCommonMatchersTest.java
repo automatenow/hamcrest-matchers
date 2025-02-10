@@ -1,7 +1,6 @@
 package io.automatenow.hamcrestmatchers.commonmatchers;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -15,15 +14,14 @@ import static org.hamcrest.Matchers.*;
  *
  * @author Marco A. Cruz
  */
-public class HamcrestCommonMatchers {
+public class HamcrestCommonMatchersTest {
 
     @Test
     public void testCommonMatchers() {
 
         // Code readability
         String[] primaryColors = {"red", "green", "blue"};
-        Assert.assertTrue(Arrays.asList(primaryColors).contains("blue")); // TestNG assert
-        assertThat(primaryColors, hasItemInArray("blue")); // Hamcrest assert
+        assertThat(primaryColors, hasItemInArray("blue"));
 
         // Self-documenting code: all of the following do the same thing
         String pageTitle = "Home";
@@ -34,14 +32,11 @@ public class HamcrestCommonMatchers {
         // Better error massages
         List<Integer> fibonacci = Arrays.asList(0,1,1,2,3,5,8);
 //        assertThat(fibonacci, hasSize(5)); // Uncomment this line to see Hamcrest error
-//        Assert.assertEquals(fibonacci.size(), 5); // Uncomment this line to see TestNG error
 
         // Custom error message description
-//        Assert.assertEquals(fibonacci.size(), 5, "the list size did not equal 5"); // Uncomment this line to see a custom TestNG error
 //        assertThat(fibonacci, describedAs("the list size to be equal to 5", hasSize(5))); // Uncomment this line to see a custom Hamcrest error
 
         // Better enforcement of type safety
-//        Assert.assertEquals("abc", 123); // Uncomment to see that this TestNG assert will compile
 //        assertThat(123, is("abc")); // Uncomment to see that this Hamcrest assert will not compile
 
         // Common matchers

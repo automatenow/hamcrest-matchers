@@ -21,17 +21,29 @@ Add the following dependency to your project's ```pom.xml``` (for Maven) or ```b
 
 **Maven**
 ```
+<!-- Adjust versions as needed -->
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.12.0-RC1</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
 <dependency>
     <groupId>org.hamcrest</groupId>
     <artifactId>hamcrest</artifactId>
-    <version>3.0</version> <!-- Check for the latest at https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+    <version>3.0</version> 
     <scope>test</scope>
 </dependency>
 ```
 
 **Gradle**
 ```
-testImplementation 'org.hamcrest:hamcrest:3.0' // Adjust version as needed
+// Adjust version as needed
+testImplementation 'org.junit.jupiter:junit-jupiter-api:5.12.0-RC1'
+testImplementation 'org.hamcrest:hamcrest:3.0'
 ```
 
 ## Usage
@@ -50,6 +62,8 @@ cd hamcrest-matchers
 
 - Gradle\
   ```./gradlew test```
+
+Or, click the green play button in your IDE to run the tests.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
