@@ -8,6 +8,17 @@
     <artifactId>Hamcrest</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <scm>
+        <url>https://github.com/automatenow/hamcrest-matchers</url>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
     <developers>
         <developer>
             <name>Marco A. Cruz</name>
