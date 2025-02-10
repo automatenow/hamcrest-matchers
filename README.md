@@ -21,7 +21,7 @@ Add the following dependency to your project's ```pom.xml``` (for Maven) or ```b
 
 **Maven**
 ```
-<!-- Adjust versions as needed -->
+\<!-- Adjust versions as needed -->
 <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
 <dependency>
     <groupId>org.junit.jupiter</groupId>
