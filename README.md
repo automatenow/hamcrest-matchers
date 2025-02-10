@@ -21,8 +21,7 @@ Add the following dependency to your project's ```pom.xml``` (for Maven) or ```b
 
 **Maven**
 ```
-\<!-- Adjust versions as needed -->
-\<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+// Adjust versions as needed
 <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter-api</artifactId>
@@ -30,7 +29,6 @@ Add the following dependency to your project's ```pom.xml``` (for Maven) or ```b
     <scope>test</scope>
 </dependency>
 
-\<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
 <dependency>
     <groupId>org.hamcrest</groupId>
     <artifactId>hamcrest</artifactId>
@@ -41,7 +39,7 @@ Add the following dependency to your project's ```pom.xml``` (for Maven) or ```b
 
 **Gradle**
 ```
-// Adjust version as needed
+// Adjust versions as needed
 testImplementation 'org.junit.jupiter:junit-jupiter-api:5.12.0-RC1'
 testImplementation 'org.hamcrest:hamcrest:3.0'
 ```
