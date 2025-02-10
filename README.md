@@ -19,8 +19,8 @@ Hamcrest is a library of matchers for building test expressions. It allows for m
 **Dependencies**\
 Add the following dependency to your project's ```pom.xml``` (for Maven) or ```build.gradle``` (for Gradle) to use Hamcrest:
 
- **Maven**
- ```
+**Maven**
+```
 <dependency>
     <groupId>org.hamcrest</groupId>
     <artifactId>hamcrest</artifactId>
