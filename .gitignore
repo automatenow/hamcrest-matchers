@@ -2,7 +2,7 @@
 .idea/
 
 # Other
-target/
+/target/
 
 # Compiled class file
 *.class
