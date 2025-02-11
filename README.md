@@ -53,4 +53,4 @@ Or, click the green play button in your IDE to run the tests.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## About automateNow
-[autoamteNow](https://automatenow.io/) is a leading learning platform catering to the needs of software testers. We are dedicated to empowering testers with the necessary skills and resources to excel in test automation and beyond.
+[automateNow](https://automatenow.io/) is a leading learning platform catering to the needs of software testers. We are dedicated to empowering testers with the necessary skills and resources to excel in test automation and beyond.
